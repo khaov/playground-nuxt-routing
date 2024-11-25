@@ -15,7 +15,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="page">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -23,29 +23,5 @@
 </template>
 
 <style>
-  .page{
-    display: grid;
-
-    grid-template-areas:
-    "header header"
-    "aside content"
-    "footer footer";
-  }
-
-  .header {
-    grid-area: header;
-  }
-
-  .content {
-    grid-area: content;
-  }
-
-  .aside {
-    grid-area: aside;
-  }
-
-  .footer {
-    grid-area: footer;
-  }
-
+  @import url("~/assets/css/main.css");
 </style>
