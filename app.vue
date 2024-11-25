@@ -15,21 +15,10 @@
 </script>
 
 <template>
-  <div class="page">
-    <header class="header">
-      Хедер
-    </header>
-    <aside class="aside">
-      <AppNavigation />
-    </aside>
-    <main class="content">
-      <div>
+  <div>
+    <NuxtLayout>
       <NuxtPage />
-    </div>
-    </main>
-    <footer class="footer">
-      Футер
-    </footer>
+    </NuxtLayout>
   </div>
 </template>
 
